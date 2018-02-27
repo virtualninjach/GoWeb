@@ -1,0 +1,11 @@
+<html>
+    <head></head>
+    <body>
+        <p>Hello, {{.Name}}</p>
+    {{if .DBStatus}}
+        <p>Database connection is good</p>
+    {{else}}
+        <p>Database status is bad</p>
+        {{end}}
+    </body>
+</html>
